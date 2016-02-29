@@ -1,0 +1,50 @@
+{
+  "name": "hapi-api-boilerplate",
+  "version": "0.1.0",
+  "description": "Hapi API Server Boilerplate",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "mkdir -p logs; node --harmony server.js",
+    "dev": "mkdir -p logs; NODE_ENV=dev node --harmony server.js",
+    "staging": "mkdir -p logs; NODE_ENV=staging node --harmony server.js",
+    "prod": "mkdir -p logs; NODE_ENV=prod node --harmony server.js",
+    "test": "lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/franzip/hapi-api-boilerplate"
+  },
+  "bugs": {
+    "url": "https://github.com/franzip/hapi-api-boilerplate/issues"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "agenda": "0.8.x",
+    "boom": "3.x.x",
+    "chairo": "2.x.x",
+    "chalk": "1.x.x",
+    "get-env": "0.4.x",
+    "glue": "3.2.x",
+    "hapi": "13.x.x",
+    "hapi-mongo-models": "4.x.x",
+    "hapi-auth-bearer-token": "4.x.x",
+    "poop": "2.x.x",
+    "underscore": "1.8.x"
+  },
+  "devDependencies": {
+    "code": "2.x.x",
+    "eslint-config-google": "^0.4.0",
+    "jshint": "2.x.x",
+    "lab": "10.x.x"
+  },
+  "keywords": [
+    "hapi",
+    "api",
+    "boilerplate",
+    "microservice"
+  ],
+  "author": "Francesco Pezzella <franzpezzella@gmail.com>",
+  "license": "MIT"
+}
