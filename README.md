@@ -1,6 +1,8 @@
 # Hapi Chairo Api Boilerplate
 
-This project has been inspired by [this boilerplate](https://github.com/devinivy/boilerplate-api).
+# DEPRECATION NOTICE
+This project is no longer mantained.  
+Use [generator-hapi-api-stack](https://github.com/franzip/generator-hapi-api-stack) instead.
 
 Table of Contents
 =================
